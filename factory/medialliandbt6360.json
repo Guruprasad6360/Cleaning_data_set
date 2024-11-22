@@ -1,0 +1,9 @@
+{
+	"name": "medialliandbt6360",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "14af1e0c-4bb8-4bed-8c5a-916e94b5280b",
+		"tenantId": "371cb917-b098-4303-b878-c182ec8403ac"
+	}
+}
