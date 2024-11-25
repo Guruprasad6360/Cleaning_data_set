@@ -28,6 +28,10 @@
 							"TABLE_SCHEMA": {
 								"value": "items().TABLE_SCHEMA",
 								"type": "Expression"
+							},
+							"TABLE_NAME": {
+								"value": "items().TABLE_NAME",
+								"type": "Expression"
 							}
 						}
 					},
@@ -115,7 +119,7 @@
 											"type": "Expression"
 										},
 										"FileName": {
-											"value": "@concat(item().FolderName,'.',item().FileName, '.parquet')",
+											"value": "@concat(item().TABLE_SCHEMA,'.',item().TABLE_NAME, '.parquet')",
 											"type": "Expression"
 										}
 									}
