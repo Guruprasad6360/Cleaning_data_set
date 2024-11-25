@@ -22,7 +22,7 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "SqlTable",
 						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
