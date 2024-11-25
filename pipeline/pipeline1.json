@@ -23,7 +23,13 @@
 					},
 					"dataset": {
 						"referenceName": "SqlTable",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"TABLE_SCHEMA": {
+								"value": "items().TABLE_SCHEMA",
+								"type": "Expression"
+							}
+						}
 					},
 					"firstRowOnly": false
 				}
