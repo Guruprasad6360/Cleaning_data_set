@@ -17,6 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
+						"sqlReaderQuery": "SELECT * \nFROM Medialliandbt.information_schema.tables\nwhere TABLE_SCHEMA='SalesLT' and TABLE_TYPE='BASE TABLE';",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
