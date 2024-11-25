@@ -145,6 +145,9 @@
 								"secureInput": false
 							},
 							"userProperties": [],
+							"typeProperties": {
+								"notebookPath": "/Data_Cleaning"
+							},
 							"linkedServiceName": {
 								"referenceName": "AzureDatabricks1",
 								"type": "LinkedServiceReference"
