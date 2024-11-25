@@ -107,6 +107,10 @@
 										"FolderName": {
 											"value": "@formatDateTime(utcNow(),'YYYY-MM-DD')",
 											"type": "Expression"
+										},
+										"FileName": {
+											"value": "@concat(item().FolderName,'.',item().FileName, '.parquet')",
+											"type": "Expression"
 										}
 									}
 								}
