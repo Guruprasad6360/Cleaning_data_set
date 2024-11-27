@@ -157,7 +157,7 @@
 										"type": "Expression"
 									},
 									"FileName": {
-										"value": "@concat(utcNow(),'YYYY-MM-DD')",
+										"value": "@formatDateTime(utcNow(),'YYYY-MM-DD')",
 										"type": "Expression"
 									}
 								}
