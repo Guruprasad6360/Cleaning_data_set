@@ -125,47 +125,6 @@
 									}
 								}
 							]
-						},
-						{
-							"name": "Notebook1",
-							"type": "DatabricksNotebook",
-							"dependsOn": [
-								{
-									"activity": "Copy data1",
-									"dependencyConditions": [
-										"Succeeded"
-									]
-								}
-							],
-							"policy": {
-								"timeout": "0.12:00:00",
-								"retry": 0,
-								"retryIntervalInSeconds": 30,
-								"secureOutput": false,
-								"secureInput": false
-							},
-							"userProperties": [],
-							"typeProperties": {
-								"notebookPath": "",
-								"baseParameters": {
-									"TABLE_SCHEMA": {
-										"value": "@item().TABLE_SCHEMA",
-										"type": "Expression"
-									},
-									"TABLE_NAME": {
-										"value": "@item().TABLE_NAME",
-										"type": "Expression"
-									},
-									"FileName": {
-										"value": "@formatDateTime(utcNow(),'YYYY-MM-DD')",
-										"type": "Expression"
-									}
-								}
-							},
-							"linkedServiceName": {
-								"referenceName": "AzureDatabricks1",
-								"type": "LinkedServiceReference"
-							}
 						}
 					]
 				}
