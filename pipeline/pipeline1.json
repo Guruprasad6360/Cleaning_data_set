@@ -146,6 +146,7 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
+								"notebookPath": "",
 								"baseParameters": {
 									"FileName": {
 										"value": "@formatDateTime(utcNow(), 'YYYY-MM-DD')",
