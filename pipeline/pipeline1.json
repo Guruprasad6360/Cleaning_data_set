@@ -145,6 +145,14 @@
 								"secureInput": false
 							},
 							"userProperties": [],
+							"typeProperties": {
+								"baseParameters": {
+									"FileName": {
+										"value": "@formatDateTime(utcNow(), 'YYYY-MM-DD')",
+										"type": "Expression"
+									}
+								}
+							},
 							"linkedServiceName": {
 								"referenceName": "AzureDatabricks1",
 								"type": "LinkedServiceReference"
