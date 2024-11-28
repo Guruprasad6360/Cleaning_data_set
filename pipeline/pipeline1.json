@@ -150,6 +150,14 @@
 									"FileName": {
 										"value": "@formatDateTime(utcNow(), 'YYYY-MM-DD')",
 										"type": "Expression"
+									},
+									"TABLE_SCHEMA": {
+										"value": "@item().TABLE_SCHEMA",
+										"type": "Expression"
+									},
+									"TABLE_NAME": {
+										"value": "@item().TABLE_NAME",
+										"type": "Expression"
 									}
 								}
 							},
