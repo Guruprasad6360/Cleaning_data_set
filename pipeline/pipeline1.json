@@ -146,7 +146,7 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
-								"notebookPath": "/Data_Cleaning",
+								"notebookPath": "",
 								"baseParameters": {
 									"TABLE_SCHEMA": {
 										"value": "@item().TABLE_SCHEMA",
