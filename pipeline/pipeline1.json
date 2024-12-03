@@ -163,7 +163,7 @@
 								}
 							},
 							"linkedServiceName": {
-								"referenceName": "AzureDatabricks2",
+								"referenceName": "AzureDatabricks3",
 								"type": "LinkedServiceReference"
 							}
 						}
